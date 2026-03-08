@@ -1,0 +1,3 @@
+# Go support
+build --@rules_go//go/config:pure
+build --@rules_go//go/config:static

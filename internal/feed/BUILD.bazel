@@ -1,0 +1,8 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "feed",
+    srcs = ["feed.go"],
+    importpath = "github.com/johanastborg/go-sse-ts-server/internal/feed",
+    visibility = ["//:__subpackages__"],
+)

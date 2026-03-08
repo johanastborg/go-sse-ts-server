@@ -1,0 +1,8 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "hub",
+    srcs = ["hub.go"],
+    importpath = "github.com/johanastborg/go-sse-ts-server/internal/hub",
+    visibility = ["//:__subpackages__"],
+)
